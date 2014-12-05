@@ -44,6 +44,8 @@ mrb_init_uefi(mrb_state *mrb)
     mrb_init_uefi_protocol(mrb, mrb_uefi);
     ARENA_RESTORE(); ARENA_SAVE();
     mrb_init_dir(mrb);
+    ARENA_RESTORE(); ARENA_SAVE();
+    mrb_init_shell(mrb);
     ARENA_RESTORE();
 
     init_uefi_mrblib(mrb);

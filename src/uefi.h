@@ -26,6 +26,7 @@ mrb_value mrb_uefi_pointer_make(mrb_state *mrb, VOID *pointer);
 VOID *mrb_uefi_pointer_raw_value(mrb_state *mrb, mrb_value pointer);
 void mrb_init_uefi_protocol(mrb_state *mrb, struct RClass *mrb_uefi);
 void mrb_init_dir(mrb_state *mrb);
+void mrb_init_shell(mrb_state *mrb);
 
 
 /* under ext */
