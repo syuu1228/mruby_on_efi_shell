@@ -41,6 +41,7 @@
   src/uefi_protocol.c
   src/uefi_runtime_service.c
   src/uefi_status.c
+  src/dir.c
   mruby/src/array.c
 #  mruby/src/cdump.c
   mruby/src/class.c
